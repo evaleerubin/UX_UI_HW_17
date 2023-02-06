@@ -34,6 +34,27 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: #DBBEA1;
+  justify-content: space-between;
+}
+.flexContainer > div {
+  flex-direction: column;
+  width: 33%;
+  margin: 100px;
+  padding: 100px 15px;
+  background-color: #D34F73;
+  text-align: center;
+  align-content: space-between;
+}
+.workGrid > div {
+  display: grid;
+  justify-content: space-evenly;
+  background-color: #DBBEA1;
+  text-align: center;
+}
 footer {
   background-color: #DBBEA1;
   padding: 5px;
