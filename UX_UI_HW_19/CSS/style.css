@@ -68,3 +68,9 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
+@media screen and (max-width: 600px){
+.flexContainer {
+  flex-direction: column;
+  width: 100%;
+}
+}
