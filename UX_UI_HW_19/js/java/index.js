@@ -1,1 +1,0 @@
-console.log("Your index file is loaded correctly!")
