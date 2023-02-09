@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #DBBEA1;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: #D34F73;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #DBBEA1;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #D34F73;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: #DBBEA1;
+  justify-content: space-between;
+}
+.flexContainer > div {
+  flex-direction: column;
+  width: 33%;
+  margin: 100px;
+  padding: 100px 15px;
+  background-color: #D34F73;
+  text-align: center;
+  align-content: space-between;
+}
+.workGrid > div {
+  display: grid;
+  justify-content: space-evenly;
+  background-color: #DBBEA1;
+  text-align: center;
+}
+footer {
+  background-color: #DBBEA1;
+  padding: 5px;
+  color: #D34F73;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
