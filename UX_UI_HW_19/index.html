@@ -5,8 +5,8 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <script src="js/index.js"></script>
   </head>
-  <div class="loader"></div>
   <body>
+    <div id="preloader"></div>
     <header>
       <img src="IMAGES/Group 3.png">
       <ul>
@@ -85,4 +85,17 @@
         <li>CONTACT</li>
       </ul>
     </footer>
+
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener ("load", function () {
+    loader.style.display = "none";
+  })
+</script>
+<script>
+setTimeout(function(){        
+    $('#preloader').fadeOut();
+    $('.preloader_img').delay(150).fadeOut('slow'); 
+}, 10000);
+</script>
   </body>
